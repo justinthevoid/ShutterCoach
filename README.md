@@ -71,7 +71,12 @@ ShutterCoach gives you honest, encouraging feedback on your photos — like havi
 <!-- 8. Built With -->
 ## Built With
 
-Built with Swift 6, SwiftUI, and multi-model AI.
+| Layer | Stack |
+| :-- | :-- |
+| **iOS** | Swift 6, SwiftUI, SwiftData |
+| **Backend** | Cloudflare Workers, Hono, TypeScript |
+| **Web** | Astro, Vue 3, UnoCSS |
+| **AI** | Multi-model (OpenAI, Google Gemini) via OpenRouter |
 
 <!-- 9. Community -->
 ## Community
