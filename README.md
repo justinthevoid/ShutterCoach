@@ -96,6 +96,7 @@ We'd love to hear from you! ShutterCoach is closed-source, but your feedback sha
 - **Email:** support@shuttercoach.app
 - **Twitter/X:** [@ShutterCoach](https://twitter.com/ShutterCoach)
 - **Instagram:** [@ShutterCoach](https://instagram.com/ShutterCoach)
+- **Privacy Policy:** [shuttercoach.app/privacy](https://shuttercoach.app/privacy)
 
 Launched January 2026.
 
