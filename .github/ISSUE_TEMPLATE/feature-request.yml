@@ -2,12 +2,26 @@ name: Feature Request
 description: Got an idea to make ShutterCoach better? We're all ears.
 labels: ["enhancement"]
 body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform is this request for?
+      options:
+        - "iOS App"
+        - "Chrome Extension"
+        - "Both"
+        - "Website"
+        - "Not sure"
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:
       label: What feature would you like?
       description: Describe your idea. What should it do?
-      placeholder: "It would be great if the app could..."
+      placeholder: "It would be great if the app / extension could..."
     validations:
       required: true
 

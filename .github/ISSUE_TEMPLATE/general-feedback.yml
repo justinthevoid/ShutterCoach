@@ -3,11 +3,25 @@ description: Share your thoughts — praise, suggestions, questions, or anything
 labels: ["feedback"]
 body:
   - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform is this about?
+      options:
+        - "iOS App"
+        - "Chrome Extension"
+        - "Both"
+        - "Website"
+        - "General"
+    validations:
+      required: true
+
+  - type: dropdown
     id: feedback-type
     attributes:
       label: What kind of feedback is this?
       options:
-        - "Praise — something I love about the app"
+        - "Praise — something I love"
         - "Suggestion — a small improvement idea"
         - "Question — I need help with something"
         - "Other"

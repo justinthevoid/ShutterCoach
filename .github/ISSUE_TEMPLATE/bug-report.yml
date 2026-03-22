@@ -3,27 +3,43 @@ description: Something isn't working right? Let us know so we can fix it.
 labels: ["bug"]
 body:
   - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you using?
+      options:
+        - "iOS App"
+        - "Chrome Extension"
+        - "Website"
+    validations:
+      required: true
+
+  - type: dropdown
     id: app-version
     attributes:
-      label: App Version
-      description: Which version of ShutterCoach are you using? (Check Settings > About)
+      label: App / Extension Version
+      description: Which version are you using? (iOS: Settings > About; Extension: chrome://extensions)
       options:
-        - "1.1"
-        - "1.0"
+        - "1.3 (iOS)"
+        - "1.2 (iOS)"
+        - "1.0 (Chrome Extension)"
         - "Not sure"
     validations:
       required: true
 
   - type: dropdown
-    id: ios-version
+    id: os-version
     attributes:
-      label: iOS Version
-      description: Which iOS version is your device running?
+      label: OS / Browser Version
+      description: What OS or browser version are you running?
       options:
+        - "iOS 26"
+        - "iOS 18.5"
+        - "iOS 18.4"
         - "iOS 18.3"
         - "iOS 18.2"
-        - "iOS 18.1"
-        - "iOS 18.0"
+        - "Chrome 130+"
+        - "Chrome 120-129"
         - "Other"
     validations:
       required: true
@@ -43,9 +59,9 @@ body:
       label: Steps to reproduce
       description: How can we see this bug ourselves?
       placeholder: |
-        1. Open the app
+        1. Open the app / extension
         2. Go to...
-        3. Tap on...
+        3. Tap / click on...
         4. See the issue
     validations:
       required: true

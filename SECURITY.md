@@ -2,14 +2,15 @@
 
 ## Supported Versions
 
-| Version | Supported |
-| ------- | --------- |
-| 1.1     | Yes       |
-| < 1.1   | No        |
+| Platform | Version | Supported |
+| -------- | ------- | --------- |
+| iOS App  | 1.3     | Yes       |
+| iOS App  | < 1.3   | No        |
+| Chrome Extension | 1.0 | Yes   |
 
 ## Reporting a Vulnerability
 
-If you discover a security issue in ShutterCoach, please report it responsibly.
+If you discover a security issue in ShutterCoach (iOS app, Chrome extension, or backend), please report it responsibly.
 
 **Email:** support@shuttercoach.app
 

@@ -6,15 +6,15 @@ Thanks for your interest in ShutterCoach! While the source code is not open-sour
 
 ### Report a Bug
 
-Found something broken? [Open a bug report](https://github.com/justinthevoid/ShutterCoach/issues/new?template=bug-report.yml) with as much detail as you can — your app version, iOS version, steps to reproduce, and screenshots all help us fix things faster.
+Found something broken in the iOS app or Chrome extension? [Open a bug report](https://github.com/justinthevoid/ShutterCoach/issues/new?template=bug-report.yml) with as much detail as you can — your platform, app version, steps to reproduce, and screenshots all help us fix things faster.
 
 ### Request a Feature
 
-Have an idea for a new feature? [Submit a feature request](https://github.com/justinthevoid/ShutterCoach/issues/new?template=feature-request.yml) and tell us what you'd like and why it would help your photography workflow.
+Have an idea for a new feature? [Submit a feature request](https://github.com/justinthevoid/ShutterCoach/issues/new?template=feature-request.yml) and tell us what you'd like and why it would help your photography workflow. Feature requests can be for either the iOS app or the Chrome extension.
 
 ### Share General Feedback
 
-Love something about the app? Have a small suggestion? Just want to say hi? [Send us feedback](https://github.com/justinthevoid/ShutterCoach/issues/new?template=general-feedback.yml) — we read every message.
+Love something about ShutterCoach? Have a small suggestion? Just want to say hi? [Send us feedback](https://github.com/justinthevoid/ShutterCoach/issues/new?template=general-feedback.yml) — we read every message.
 
 ### Join the Discussion
 
